@@ -30,7 +30,7 @@ nav ul:last-child {
 }
 
 .line_break {
-  background-image: url(/img/hr-img.png);
+  background-image: url(../img/hr-img.png);
   margin-top: 5%;
   height: 20px;
 }
