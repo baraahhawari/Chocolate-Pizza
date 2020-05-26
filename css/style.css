@@ -1,119 +1,124 @@
 @import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
-
 body {
-  width: 80%;
-  margin: 0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #logo img {
-  margin: 1%;
+    margin: 1%;
 }
 
 #logo p {
-  margin: 1%;
+    margin: 1%;
 }
 
 h1 {
-  font-family: "Lobster";
-  font-size: 30px;
-  margin-left: 42px;
-  padding-left: 20px;
+    font-family: "Lobster";
+    font-size: 30px;
+    margin-left: 42px;
+    padding-left: 20px;
 }
 
 header {
-  padding: 35px 0px;
-  overflow: auto;
+    padding: 35px 0px;
+    overflow: auto;
 }
 
 nav ul:last-child {
-  padding-right: 20px;
+    padding-right: 20px;
 }
 
 .line_break {
-  background-image: url(/img/hr-img.png);
-  margin-top: 5%;
-  height: 20px;
+    background-image: url(../img/hr-img.png);
+    margin-top: 5%;
+    height: 20px;
 }
 
 h2 {
-  font-weight: bolder;
-  font-size: 40px;
+    font-weight: bolder;
+    font-size: 40px;
 }
 
 .font_gray {
-  color: gray;
+    color: gray;
 }
 
 .float_left {
-  float: left;
+    float: left;
 }
+
 .float_right {
-  float: right;
+    float: right;
 }
 
 #slider {
-  width: 100%;
-  margin: 3% 0;
+    width: 100%;
+    margin: 3% 0;
 }
 
 .text-indent {
-  text-indent: 32px;
+    text-indent: 32px;
 }
 
 .paragraph_height {
-  padding: 1%;
+    padding: 1%;
 }
 
 label {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 #shop_list {
-  background-image: url(../img/list-bg.png);
-  background-repeat: no-repeat;
-  padding: 3%;
-  background-size: cover;
+    background-image: url(../img/list-bg.png);
+    background-repeat: no-repeat;
+    padding: 3%;
+    background-size: cover;
 }
 
 #list_2 {
-  margin-left: 50%;
+    margin-left: 50%;
 }
 
 img.float_left {
-  margin: 3%;
+    margin: 3%;
 }
 
 h3 {
-  font-weight: bolder;
-  font-size: 25px;
-  padding: 2%;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 2%;
 }
 
 button {
-  background-color: rgb(187, 111, 84);
-  padding: 15px 45px;
-  color: white;
-  position: absolute;
-  top: 230%;
-  left: 73%;
+    background-color: rgb(187, 111, 84);
+    padding: 15px 45px;
+    color: white;
+    position: absolute;
+    top: 230%;
+    left: 73%;
+    cursor: pointer;
 }
 
 .center {
-  text-align: center;
-  padding-top: 50px;
-  color: gray;
-  padding-bottom: 2%;
+    text-align: center;
+    padding-top: 50px;
+    color: gray;
+    padding-bottom: 2%;
 }
 
 #footer_line {
-  margin: 10px 0;
+    margin: 10px 0;
 }
 
 img#small_logo {
-  margin-bottom: -3%;
-  margin-right: 15%;
+    margin-bottom: -3%;
+    margin-right: 15%;
 }
 
-input[type="checkbox"]:checked + label {
-  text-decoration: line-through;
+input {
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked+label {
+    text-decoration: line-through;
 }
